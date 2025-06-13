@@ -1,0 +1,34 @@
+* estilo para el Fondo de la página web */
+body {
+    font-family: "Tahoma";
+    font-size: 12px;
+}
+
+/* Estilos adicionales para el formulario del Ejemplo 5 */
+#fmrregistro { /* Usado para el formulario */
+    border: solid 2px #b7ddf2;
+    background: #ddf2dd;
+    margin: 0 auto;
+    width: 400px;
+    padding: 14px;
+}
+
+h1 { /* Estilo para el título */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#linea { /* Estilo para el texto "Complete el formulario y su línea" */
+    color: #666666;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+label { /* Estilo para los textos del formulario (etiquetas) */
+    display: block;
+    font-weight: bold;
+    width: 140px; /* Aunque el ejemplo no usa input, se mantiene por si se agregan */
+    font-size: 12px;
+}
